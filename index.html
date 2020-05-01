@@ -1,12 +1,556 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>OXYGEN</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Merriweather:300i|Montserrat:300,700|Open+Sans:300,400,600,700|Raleway:700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/fonts_brands.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
 </head>
+
 <body>
-    <h1>My portfolio</h1>
-    
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__top-inner">
+                    <div class="logo">
+                        <a class="logo__link" href="#">
+                            <img class="logo__img" src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <div class="menu__btn">
+                            <span class="icon-bars"></span>
+                        </div>
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">HOME</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">ABOUT US</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">PORTFOLIO</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">OUR TEAM</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">BLOG</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__link" href="#">CONTACT</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="header__content-inner">
+                <h1 class="header__content-title">OXYGEN</h1>
+                <p class="header__content-description">STARTER UI KIT</p>
+                <div class="header__content-decor">
+                    <img class="decor-mouse" src="images/mouse.png" alt="" title="Scroll Down">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="title about-title-pos">
+                    <p class="about-title-text">About Us</p>
+                    <div class="title-underline"></div>
+                </div>
+                <div class="about__text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa,
+                        dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis
+                        dignissimos aliquam ad minus nisi. In, fuga blanditiis non cum cupiditate dolore, accusantium
+                        odio doloremque quibusdam dignissimos nemo sed nisi, similique, mollitia et! Autem laborum sint
+                        tenetur, earum facere veniam?
+                    </p>
+                    <p>
+                        Sunt fugiat veniam consectetur soluta quia ex tempora quaerat, perferendis! Itaque a praesentium
+                        saepe ex distinctio aliquid quis laborum sit, porro dolor odio, iste eos laboriosam dolorum
+                        maiores harum reiciendis vitae doloribus illum voluptatibus nobis maxime assumenda ipsam tempora
+                        fugiat. Perspiciatis quibusdam hic cum tempore.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="expertise">
+        <div class="container">
+            <div class="title expert-title-pos">
+                <p class="expert-title-text">Our Expertise</p>
+                <div class="title-underline"></div>
+            </div>
+            <div class="expertise__content">
+                <div class="expertise__content-items">
+                    <div class="expertise__content-item">
+                        <div class="rate-gray">
+                            <div class="rate-branding"></div>
+                        </div>
+                        <p class="exp-branding">BRANDING</p>
+                        <p class="exp-disp-branding">90%</p>
+                    </div>
+                    <div class="expertise__content-item exp-item-pos">
+                        <div class="rate-gray">
+                            <div class="rate-design"></div>
+                        </div>
+                        <p class="exp-design">DESIGN</p>
+                        <p class="exp-disp-design">80%</p>
+                    </div>
+                    <div class="expertise__content-item exp-item-pos">
+                        <div class="rate-gray">
+                            <div class="rate-development"></div>
+                        </div>
+                        <p class="exp-develop">DEVELOPMENT</p>
+                        <p class="exp-disp-develop">85%</p>
+                    </div>
+                </div>
+                <div class="expertise__content-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi totam culpa,
+                        dolorum asperiores iusto quidem, nesciunt hic eaque blanditiis enim, id maiores nam nobis
+                        dignissimos aliquam ad minus nisi.
+                    </p>
+                    <p>
+                        Autem laborum sint tenetur, earum facere veniam? Sunt fugiat veniam consectetur soluta quia ex
+                        tempora quaerat, perferendis! Itaque a praesentium saepe ex distinctio aliquid quis
+                    </p>
+                </div>
+            </div>
+            <div class="expertise__items">
+                <div class="expertise__item">
+                    <img class="expertise__item-img" src="images/vector.png" alt="">
+                    <div class="expertise__item-box">
+                        <div class="expertise__item-title">
+                            GRAPHIC DESIGN
+                        </div>
+                        <div class="expertise__item-text">
+                            Lorem Ipsum Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                            bibendum auctor, nisi elit consequat ipsum
+                        </div>
+                    </div>
+                </div>
+                <div class="expertise__item">
+                    <img class="expertise__item-img" src="images/monitor.png" alt="">
+                    <div class="expertise__item-box">
+                        <div class="expertise__item-title">
+                            WEB DEVELOPMENT
+                        </div>
+                        <div class="expertise__item-text">
+                            Lorem Ipsum Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                            bibendum auctor, nisi elit consequat ipsum
+                        </div>
+                    </div>
+                </div>
+                <div class="expertise__item">
+                    <img class="expertise__item-img" src="images/rupor.png" alt="">
+                    <div class="expertise__item-box">
+                        <div class="expertise__item-title">
+                            MARKETING
+                        </div>
+                        <div class="expertise__item-text">
+                            Lorem Ipsum Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis
+                            bibendum auctor, nisi elit consequat ipsum
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="features__inner">
+                <img class="features__img" src="images/man-draw.jpg" alt="">
+                <div class="features__content">
+                    <div class="title features-title-pos">
+                        <p class="features-title-text">Let’s make magic</p>
+                        <div class="title-underline"></div>
+                    </div>
+                    <div class="features__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero veniam odio itaque.
+                            Molestiae
+                            aut dicta accusantium quod, modi ad alias enim dolor delectus iusto! Inventore tempora
+                            labore
+                            nobis doloribus optio nulla sit corrupti nostrum, tempore debitis pariatur minus maiores
+                            velit,
+                            autem ex eum distinctio error fugit. Itaque voluptatum quam veritatis fuga impedit nulla
+                            dolor.
+                        </p>
+                        <p>
+                            Nam dignissimos, ratione odit doloribus cum porro, aut. Ipsum nisi odio voluptatum, et,
+                            reprehenderit accusamus, est provident debitis dicta ullam esse assumenda, odit? Alias
+                            architecto enim pariatur libero ipsam mollitia maiores minus quibusdam numquam perspiciatis
+                            eveniet sit dolores eligendi inventore, ea voluptatum debitis iure, repellendus iste culpa!
+                            Voluptatibus quam ipsum nisi odit deserunt qui, consectetur ducimus, quis officia quaerat
+                            sapiente dolores, ad libero! Tenetur provident, omnis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__head">
+                <div class="title portfolio-title-pos">
+                    <p class="title-text">Portfolio</p>
+                    <div class="title-underline"></div>
+                </div>
+                <nav class="portfolio__buttons">
+                    <div class="portfolio__btn">
+                        <span class="icon-bars"></span>
+                    </div>
+                    <ul class="portfolio__menu-buttons">
+                        <li class="portfolio__menu-btn">
+                            <a class="portfolio__menu-btn-link" href="#">ALL</a>
+                        </li>
+                        <li class="portfolio__menu-btn">
+                            <a class="portfolio__menu-btn-link" href="#">BRANDING</a>
+                        </li>
+                        <li class="portfolio__menu-btn">
+                            <a class="portfolio__menu-btn-link" href="#">BRANDING</a>
+                        </li>
+                        <li class="portfolio__menu-btn">
+                            <a class="portfolio__menu-btn-link" href="#">PHOTOGRAPHY</a>
+                        </li>
+                        <li class="portfolio__menu-btn">
+                            <a class="portfolio__menu-btn-link" href="#">ILLUSTRATION</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="portfolio__content">
+                <ul class="portfolio__items">
+                    <li class="portfolio__item-img1"></li>
+                    <li class="portfolio__item-img2"></li>
+                    <li class="portfolio__item-img3"></li>
+                    <li class="portfolio__item-img4"></li>
+                    <li class="portfolio__item-img5"></li>
+                    <li class="portfolio__item-img6"></li>
+                    <li class="portfolio__item-img7"></li>
+                    <li class="portfolio__item-img8"></li>
+                    <li class="portfolio__item-img9"></li>
+                </ul>
+                <button class="portfolio__btn-all">VIEW MORE PROJECTS</button>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="video__quotes">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+        </div>
+        <div class="video__quotes-author">
+            Gilbert Hammond
+        </div>
+        <video class="video__content" src=""></video>
+    </section>
+    <section class="statistics">
+        <div class="container">
+            <div class="statistics___inner">
+                <div class="statistics__item">
+                    <div class="statistics__item-num">305</div>
+                    <div class="statistics_item-text">Web Designs</div>
+                </div>
+                <div class="statistics__item">
+                    <div class="statistics__item-num">220</div>
+                    <div class="statistics_item-text">Logo Designs</div>
+                </div>
+                <div class="statistics__item">
+                    <div class="statistics__item-num">52</div>
+                    <div class="statistics_item-text">Print Designs</div>
+                </div>
+                <div class="statistics__item">
+                    <div class="statistics__item-num">88</div>
+                    <div class="statistics_item-text">Mobile Apps</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="slider__inner">
+                <div class="slider__item">
+                    <div class="slider__content">
+                        <div class="slider__content-text">
+                            <div class="slider__item-title">
+                                Then they show that show to the
+                                people who make shows
+                            </div>
+                            <div class="slider__item-text">
+                                <p>
+                                    The path of the righteous man is beset on all sides by the iniquities of the selfish
+                                    and the tyranny of evil men. Blessed is he who, in the name of charity and good
+                                    will,
+                                    shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider__content-img">
+                            <img class="cocos-pic" src="images/cocos.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__content">
+                        <div class="slider__content-text">
+                            <div class="slider__item-title">
+                                Then they show that show to the
+                                people who make shows
+                            </div>
+                            <div class="slider__item-text">
+                                <p>
+                                    The path of the righteous man is beset on all sides by the iniquities of the selfish
+                                    and the tyranny of evil men. Blessed is he who, in the name of charity and good
+                                    will,
+                                    shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider__content-img">
+                            <img class="cocos-pic" src="images/cocos.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__content">
+                        <div class="slider__content-text">
+                            <div class="slider__item-title">
+                                Then they show that show to the
+                                people who make shows
+                            </div>
+                            <div class="slider__item-text">
+                                <p>
+                                    The path of the righteous man is beset on all sides by the iniquities of the selfish
+                                    and the tyranny of evil men. Blessed is he who, in the name of charity and good
+                                    will,
+                                    shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider__content-img">
+                            <img class="cocos-pic" src="images/cocos.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__content">
+                        <div class="slider__content-text">
+                            <div class="slider__item-title">
+                                Then they show that show to the
+                                people who make shows
+                            </div>
+                            <div class="slider__item-text">
+                                <p>
+                                    The path of the righteous man is beset on all sides by the iniquities of the selfish
+                                    and the tyranny of evil men. Blessed is he who, in the name of charity and good
+                                    will,
+                                    shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider__content-img">
+                            <img class="cocos-pic" src="images/cocos.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__content">
+                        <div class="slider__content-text">
+                            <div class="slider__item-title">
+                                Then they show that show to the
+                                people who make shows
+                            </div>
+                            <div class="slider__item-text">
+                                <p>
+                                    The path of the righteous man is beset on all sides by the iniquities of the selfish
+                                    and the tyranny of evil men. Blessed is he who, in the name of charity and good
+                                    will,
+                                    shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider__content-img">
+                            <img class="cocos-pic" src="images/cocos.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__content">
+                        <div class="slider__content-text">
+                            <div class="slider__item-title">
+                                Then they show that show to the
+                                people who make shows
+                            </div>
+                            <div class="slider__item-text">
+                                <p>
+                                    The path of the righteous man is beset on all sides by the iniquities of the selfish
+                                    and the tyranny of evil men. Blessed is he who, in the name of charity and good
+                                    will,
+                                    shepherds the weak through the valley of darkness, for he is truly his brother’s.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider__content-img">
+                            <img class="cocos-pic" src="images/cocos.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <div class="container">
+            <div class="title team-title-pos">
+                <p class="team__title-text">Our Team</p>
+                <div class="title-underline"></div>
+            </div>
+            <div class="team__items">
+                <div class="team__item">
+                    <img class="team__item-img" src="images/bernard.jpg" alt="">
+                    <div class="team__item-name">BERNARD SPARKS</div>
+                    <div class="team__item-position">CEO</div>
+                </div>
+                <div class="team__item">
+                    <img class="team__item-img" src="images/minerva.jpg" alt="">
+                    <div class="team__item-name">MINERVA BENSON</div>
+                    <div class="team__item-position">Co-Founder</div>
+                </div>
+                <div class="team__item">
+                    <img class="team__item-img" src="images/jared.jpg" alt="">
+                    <div class="team__item-name">JARED OLSON</div>
+                    <div class="team__item-position">Sales</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pricing ">
+        <div class="container">
+            <div class="title pricing-title-pos">
+                <p class="pricing__title-text">Pricing Plans</p>
+                <div class="title-underline"></div>
+            </div>
+            <div class="pricing__items">
+                <div class="pricing__item">
+                    <div class="pricing__item-name">
+                        Basic
+                    </div>
+                    <div class="pricing__item-rate">
+                        29<span>/ mo</span>
+                    </div>
+                    <ul class="pricing__list">
+                        <li class="pricing__list-item">1 Logo Design</li>
+                        <li class="pricing__list-item">1 Website Design</li>
+                        <li class="pricing__list-item">1 Domain Free</li>
+                        <li class="pricing__list-item">3 Month License</li>
+                        <li class="pricing__list-item">1 GB Storage</li>
+                    </ul>
+                    <button class="pricing__btn">CHOOSE PLAN</button>
+                </div>
+                <div class="pricing__item">
+                    <div class="pricing__item-name">
+                        Starter
+                    </div>
+                    <div class="pricing__item-rate">
+                        50<span>/ mo</span>
+                    </div>
+                    <ul class="pricing__list">
+                        <li class="pricing__list-item">2 Logo Design</li>
+                        <li class="pricing__list-item">2 Website Design</li>
+                        <li class="pricing__list-item">1 Domain Free</li>
+                        <li class="pricing__list-item">6 Month License</li>
+                        <li class="pricing__list-item">1 GB Storage</li>
+                    </ul>
+                    <button class="pricing__btn">CHOOSE PLAN</button>
+                </div>
+                <div class="pricing__item">
+                    <div class="pricing__item-name">
+                        Professional
+                    </div>
+                    <div class="pricing__item-rate">
+                        70<span>/ mo</span>
+                    </div>
+                    <ul class="pricing__list">
+                        <li class="pricing__list-item">3 Logo Design</li>
+                        <li class="pricing__list-item">3 Website Design</li>
+                        <li class="pricing__list-item">2 Domain Free</li>
+                        <li class="pricing__list-item">12 Month License</li>
+                        <li class="pricing__list-item">2 GB Storage</li>
+                    </ul>
+                    <button class="pricing__btn">CHOOSE PLAN</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <div class="contact__content">
+                    <div class="title contact-title-pos">
+                        <p class="contact-title-text ">Get in Touch</p>
+                        <div class="title-underline"></div>
+                    </div>
+                    <form class="contact__form" action="">
+                        <input class="contact__form-input" type="text" placeholder="YOUR NAME">
+                        <input class="contact__form-input" type="text" placeholder="VALID EMAIL">
+                        <textarea class="contact__form-textarea" placeholder="YOUR MESSAGE"></textarea>
+                        <button class="contact__form-btn" type="submit">SEND MESSAGE</button>
+                    </form>
+                </div>
+                <div class="contact__map">
+                    <img class="contact__map-img" src="images/map.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer-logo">
+                    <a class="logo__link logo--line" href="#">
+                        <img class="logo__img" src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social-link" href="https://www.facebook.com/"><span class="icon-facebook2"></span></a>
+                    <a class="footer__social-link" href="https://twitter.com/"><span class="icon-twitter"></a>
+                    <a class="footer__social-link" href="https://plus.google.com/"><span class="icon-google-plus2"></a>
+                    <a class="footer__social-link" href="https://www.behance.net/"><span class="icon-behance"></a>
+                    <a class="footer__social-link" href="https://dribbble.com/"><span class="icon-dribbble"></a>
+                    <a class="footer__social-link" href="https://www.instagram.com/?hl=ru"><span class="icon-instagram"></a>
+                </div>
+                <div class="footer__adress">Mese Selimovica 52, Banja Luka - BiH</div>
+                <a class="footer__phone" href="tel:(00387)65252222">(00387) 65 252 222</a>
+                <a class="footer__email" href="mailto:info@mail.com">info@mail.com</a>
+                <button id="#btn-up" class="footer-to__up-btn">
+                    <img class="up-btn-img" src="images/arrow-up.png" alt="Up">
+                </button>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <p class="footer__copy-text">@2015 Oxygen Theme</p>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
