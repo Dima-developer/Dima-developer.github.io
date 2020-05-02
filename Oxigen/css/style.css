@@ -21,6 +21,7 @@ body{
     display:block;
     background-color: #fff;
     height: 94px;
+    z-index: 200;
 }
 .container {
     display: block;
