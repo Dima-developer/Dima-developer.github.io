@@ -917,13 +917,13 @@ span {
 }
 .footer {
     display: block;
-    height: 652px;
+    /* height: 652px; */
     
 }
 .footer__content {
     display: block;
     position: relative;
-    height: 552px;
+    height: 620px;
     background-color: #373A39;
 }
 .footer-logo {
