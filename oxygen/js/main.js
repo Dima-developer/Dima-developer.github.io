@@ -2,8 +2,8 @@ $(function () {
     // Фиксированное меню
     $(window).scroll(function() {
         var top = $(document).scrollTop();
-        if (top < 100) $(".header__top").css({top: '0', position: 'relative'});
-        else $(".header__top").css({top: '0', position: 'fixed', width: '100%'});
+        if (top < 30) $(".header__top").css({top: '0', position: 'relative', width: '100%'});
+        else $(".header__top").css({top: '0', position: 'fixed', width: '99.18%'});
         });
     // Кнопка меню
     $('.menu__btn').on('click', function(){
