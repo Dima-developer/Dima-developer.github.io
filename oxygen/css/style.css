@@ -402,6 +402,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 5px;
 }
 .portfolio__item-img1{
     grid-row: span 5;
