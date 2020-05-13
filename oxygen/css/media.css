@@ -8,6 +8,7 @@
         width: 750px;
         margin: 0 auto;
     }
+}
 @media (max-width: 1250px) {
     .expertise__content {
         width: 80vw;
