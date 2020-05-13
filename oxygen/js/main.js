@@ -2,10 +2,12 @@ $(function () {
     // Фиксированное меню
     $(window).scroll(function() {
         var top = $(document).scrollTop();
-        if (top < 30) $(".header__top").css({top: '0', position: 'relative', width: '100%'});
-        else $(".header__top").css({top: '0', position: 'fixed', width: '99.18%'});
+        if (top < 650) $('.header__top').css({'top': '0', 'position': 'relative'});
+        else $('.header__top').css({'top': '0px', 'position': 'fixed', 'width': '100%'});
+        if (top < 650) $('.header__content').css({'margin-top': '0px'});
+        else $('.header__content').css({'margin-top': '94px'});
         });
-    // Кнопка меню
+           // Кнопка меню
     $('.menu__btn').on('click', function(){
         $('.menu ul').slideToggle();
     });
@@ -14,6 +16,18 @@ $(function () {
     })
     $('.portfolio__btn').on('click', function(){
         $('.portfolio__buttons ul').slideToggle();
+    });
+    $(document).mouseup(function (e){ // событие клика по веб-документу
+        var div1 = $('.menu__list'); // тут указываем ID элемента или класс
+        var div2 = $('.portfolio__buttons ul');
+        if (!div1.is(e.target) // если клик был не по нашему блоку
+            && div1.has(e.target).length === 0) { // и не по его дочерним элементам
+            div1.hide(); // скрываем его
+        }
+        if (!div2.is(e.target) 
+            && div2.has(e.target).length === 0) { 
+            div2.hide(); 
+        }
     });
     // Слайдер
     $('.slider__inner').slick({
