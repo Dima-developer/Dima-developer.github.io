@@ -8,17 +8,6 @@
         width: 750px;
         margin: 0 auto;
     }
-    /* .portfolio__item-img1, 
-    .portfolio__item-img2, 
-    .portfolio__item-img3, 
-    .portfolio__item-img4, 
-    .portfolio__item-img5, 
-    .portfolio__item-img6, 
-    .portfolio__item-img7, 
-    .portfolio__item-img8, 
-    .portfolio__item-img9 {
-        width: 343px;*/
-} 
 @media (max-width: 1250px) {
     .expertise__content {
         width: 80vw;
@@ -582,7 +571,15 @@
     .expertise__content-item {
         width: auto;
     }
+    .portfolio__btn{
+        right: 33px;
+    }
     .slick-list {
         height: 340px;
+    }
+}
+@media (max-width: 320px) {
+    .portfolio__btn{
+        right: 6px;
     }
 }
